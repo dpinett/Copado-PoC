@@ -27,7 +27,5 @@
     <tab>standard-News</tab>
     <tab>standard-ForecastingLightning</tab>
     <tab>standard-EinsteinAnalytics</tab>
-    <tab>Property__c</tab>
-    <tab>Energy_Audit__c</tab>
     <uiType>Lightning</uiType>
 </CustomApplication>

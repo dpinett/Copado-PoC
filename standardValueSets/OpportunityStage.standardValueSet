@@ -91,14 +91,4 @@
         <probability>0</probability>
         <won>false</won>
     </standardValue>
-    <standardValue>
-        <fullName>Etapa de Prueba</fullName>
-        <default>false</default>
-        <description>Estaba de prueba</description>
-        <label>Etapa de Prueba</label>
-        <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
-        <probability>25</probability>
-        <won>false</won>
-    </standardValue>
 </StandardValueSet>
