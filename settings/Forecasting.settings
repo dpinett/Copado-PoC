@@ -242,6 +242,10 @@
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000LMzKV</field>
+            <label>External Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000Kab0l</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
@@ -252,6 +256,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N0Y00000Kab0n</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -291,9 +299,11 @@
             <field>00N0Y00000Kab0j</field>
             <field>00N0Y00000KAxcp</field>
             <field>00N0Y00000Kab0k</field>
+            <field>00N0Y00000LMzKV</field>
             <field>00N0Y00000Kab0l</field>
             <field>00N0Y00000Kab0m</field>
             <field>00N0Y00000Kab0n</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -464,6 +474,10 @@
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000LMzKV</field>
+            <label>External Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000Kab0l</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
@@ -474,6 +488,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N0Y00000Kab0n</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -513,9 +531,11 @@
             <field>00N0Y00000Kab0j</field>
             <field>00N0Y00000KAxcp</field>
             <field>00N0Y00000Kab0k</field>
+            <field>00N0Y00000LMzKV</field>
             <field>00N0Y00000Kab0l</field>
             <field>00N0Y00000Kab0m</field>
             <field>00N0Y00000Kab0n</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -686,6 +706,10 @@
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000LMzKV</field>
+            <label>External Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000Kab0l</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
@@ -696,6 +720,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N0Y00000Kab0n</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -735,9 +763,11 @@
             <field>00N0Y00000Kab0j</field>
             <field>00N0Y00000KAxcp</field>
             <field>00N0Y00000Kab0k</field>
+            <field>00N0Y00000LMzKV</field>
             <field>00N0Y00000Kab0l</field>
             <field>00N0Y00000Kab0m</field>
             <field>00N0Y00000Kab0n</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -908,6 +938,10 @@
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000LMzKV</field>
+            <label>External Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000Kab0l</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
@@ -918,6 +952,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N0Y00000Kab0n</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -957,9 +995,11 @@
             <field>00N0Y00000Kab0j</field>
             <field>00N0Y00000KAxcp</field>
             <field>00N0Y00000Kab0k</field>
+            <field>00N0Y00000LMzKV</field>
             <field>00N0Y00000Kab0l</field>
             <field>00N0Y00000Kab0m</field>
             <field>00N0Y00000Kab0n</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1138,6 +1178,10 @@
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000LMzKV</field>
+            <label>External Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000Kab0l</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
@@ -1148,6 +1192,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N0Y00000Kab0n</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1189,9 +1237,11 @@
             <field>00N0Y00000Kab0j</field>
             <field>00N0Y00000KAxcp</field>
             <field>00N0Y00000Kab0k</field>
+            <field>00N0Y00000LMzKV</field>
             <field>00N0Y00000Kab0l</field>
             <field>00N0Y00000Kab0m</field>
             <field>00N0Y00000Kab0n</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
