@@ -47,6 +47,7 @@
     <description>Agile form of requirements gathering</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableFeeds>false</enableFeeds>
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
@@ -1759,5 +1760,34 @@
         <protected>false</protected>
         <requireRowSelection>false</requireRowSelection>
         <url>/apex/{!if($Setup.copado__Settings__c.copado__Namespace__c =&apos;none&apos;,&apos;&apos;,&apos;copado__&apos;)}QuickCreateUserStories?sid={!copado__Sprint__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>copado__Run_Static_Code_Analysis</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>page</linkType>
+        <masterLabel>Run Static Code Analysis</masterLabel>
+        <openType>replace</openType>
+        <page>copado__UserStoryCodeAnalysisRequested</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>copado__Static_Code_Analysis_Summary</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Static Code Analysis Summary</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/apex/{!if($Setup.copado__Settings__c.copado__Namespace__c =&apos;none&apos;,&apos;&apos;,&apos;copado__&apos;)}StaticCodeAnalysisSummary?id={!copado__User_Story__c.Id}&amp;entity=Story</url>
     </webLinks>
 </CustomObject>

@@ -113,8 +113,11 @@ var statusManager = statusManager || {
         });
     },
     getAttachment: function(parentId, name) {
+        console.log('status manager get attachment');
+        console.log('status manager get attachment name',name);
         var me = statusManager;
         var att = dw.u.getDecodedAttach(parentId, name);
+        console.log('status manager get attachment att',att);
         if (att) {
             statusManager.attachmentId = att[0].Id;
         } else {
@@ -288,7 +291,7 @@ var statusManager = statusManager || {
 
         me.operationInProgress = false;
         me.lastAttachment = null; // NR: see if this fixes issues when a job starts AFTER another job
-        
+        console.log('me',me);
         //when statusManager is initialised determine if job is ongoing.
         var att = me.getAttachment(me.parentId, me.fileName);
 
