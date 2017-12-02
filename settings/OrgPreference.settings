@@ -37,6 +37,14 @@
         <settingValue>true</settingValue>
     </preferences>
     <preferences>
+        <settingName>ReferrerPolicy</settingName>
+        <settingValue>true</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>HstsSitesCommunities</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
+    <preferences>
         <settingName>PathAssistantsEnabled</settingName>
         <settingValue>false</settingValue>
     </preferences>
@@ -53,6 +61,14 @@
         <settingValue>true</settingValue>
     </preferences>
     <preferences>
+        <settingName>UsersAreLightningOnly</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>RemoveThemeBrandBanner</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
+    <preferences>
         <settingName>NotesReservedPref01</settingName>
         <settingValue>false</settingValue>
     </preferences>
@@ -62,7 +78,7 @@
     </preferences>
     <preferences>
         <settingName>NetworksEnabled</settingName>
-        <settingValue>true</settingValue>
+        <settingValue>false</settingValue>
     </preferences>
     <preferences>
         <settingName>AnalyticsSharingEnable</settingName>
@@ -86,6 +102,18 @@
     </preferences>
     <preferences>
         <settingName>VoiceLocalPresenceEnabled</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>VoiceCoachingEnabled</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>VoiceCallRecordingEnabled</settingName>
+        <settingValue>false</settingValue>
+    </preferences>
+    <preferences>
+        <settingName>TerritoryManagement2Enable</settingName>
         <settingValue>false</settingValue>
     </preferences>
     <preferences>

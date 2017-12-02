@@ -53,10 +53,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Etapa de Prueba</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Id%2E Decision Makers</fullName>
             <default>false</default>
         </values>
@@ -85,17 +81,7 @@
             <default>false</default>
         </values>
     </businessProcesses>
-    <compactLayoutAssignment>New_Oppty_Compact_Layout</compactLayoutAssignment>
-    <compactLayouts>
-        <fullName>New_Oppty_Compact_Layout</fullName>
-        <fields>Name</fields>
-        <fields>Probability</fields>
-        <fields>CloseDate</fields>
-        <fields>StageName</fields>
-        <fields>Amount</fields>
-        <fields>OwnerId</fields>
-        <label>New Oppty Compact Layout</label>
-    </compactLayouts>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <fields>
@@ -136,36 +122,6 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>DB_Competitor__c</fullName>
-        <description>This is a field that is installed by and used with the Adoption Dashboard AppExchange package. If your org already has a similar field, you can change the reports that are part of the Adoption Dashboard package to use your custom field and can delete this field.</description>
-        <externalId>false</externalId>
-        <label>DB Competitor</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Competitor A</fullName>
-                    <default>false</default>
-                    <label>Competitor A</label>
-                </value>
-                <value>
-                    <fullName>Competitor B</fullName>
-                    <default>false</default>
-                    <label>Competitor B</label>
-                </value>
-                <value>
-                    <fullName>Competitor C</fullName>
-                    <default>false</default>
-                    <label>Competitor C</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>DeliveryInstallationStatus__c</fullName>
@@ -266,11 +222,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>PartnerAccountId</fullName>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>Pricebook2Id</fullName>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -354,28 +305,6 @@
         <label>Opportunity Pipeline</label>
     </listViews>
     <listViews>
-        <fullName>High_Probability_Opportunities</fullName>
-        <booleanFilter>1 AND 2</booleanFilter>
-        <columns>OPPORTUNITY.NAME</columns>
-        <columns>ACCOUNT.NAME</columns>
-        <columns>OPPORTUNITY.STAGE_NAME</columns>
-        <columns>OPPORTUNITY.CLOSE_DATE</columns>
-        <columns>OPPORTUNITY.AMOUNT</columns>
-        <columns>CORE.USERS.ALIAS</columns>
-        <filterScope>Mine</filterScope>
-        <filters>
-            <field>OPPORTUNITY.PROBABILITY</field>
-            <operation>greaterOrEqual</operation>
-            <value>50</value>
-        </filters>
-        <filters>
-            <field>OPPORTUNITY.STAGE_NAME</field>
-            <operation>equals</operation>
-            <value>Proposal/Price Quote,Negotiation/Review</value>
-        </filters>
-        <label>High Probability Opportunities</label>
-    </listViews>
-    <listViews>
         <fullName>MyOpportunities</fullName>
         <filterScope>Mine</filterScope>
         <label>My Opportunities</label>
@@ -427,10 +356,9 @@
     </listViews>
     <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <recordTypes>
-        <fullName>registro_oportunidad</fullName>
+        <fullName>registro_de_oportunidad</fullName>
         <active>true</active>
         <businessProcess>Ventas al por menor</businessProcess>
-        <description>registro de oportunidad de prueba</description>
         <label>registro de oportunidad</label>
         <picklistValues>
             <picklist>DeliveryInstallationStatus__c</picklist>

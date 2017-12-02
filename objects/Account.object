@@ -172,13 +172,6 @@
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>IsCustomerPortal</fullName>
-    </fields>
-    <fields>
-        <fullName>IsPartner</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
         <fullName>Jigsaw</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -426,17 +419,5 @@
         <showsLocation>true</showsLocation>
         <showsStatus>true</showsStatus>
         <url>http://www.genwatt.com/genwatt/billing.htm?actname={!Account_Name}</url>
-    </webLinks>
-    <webLinks>
-        <fullName>Map_Location</fullName>
-        <availability>online</availability>
-        <displayType>button</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <height>600</height>
-        <linkType>url</linkType>
-        <masterLabel>Map Location</masterLabel>
-        <openType>sidebar</openType>
-        <protected>false</protected>
-        <url>http://maps.google.com/maps?q={!Account.BillingStreet}%20{!Account.BillingCity}%20{!Account.BillingState}%20{!Account.BillingPostalCode}</url>
     </webLinks>
 </CustomObject>
