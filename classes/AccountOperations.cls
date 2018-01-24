@@ -1,7 +1,7 @@
 public class AccountOperations {
-    public static Account setDefaultDescription(Account a) {        
-        // If statements must use braces (GitConflic)
-        if (a.Description != null) return a;
+    public static Account setDefaultDescription(Account a) { //       
+        // If statements must use braces (GitConflic) idhdh
+        if (a.Description != null) return a; //H
 	else a.Description = 'Default Description';
         
         // Avoid SOQL inside loops
