@@ -1,5 +1,5 @@
-public class AccountOperations {
-    public static Account setDefaultDescription(Account a) { //       
+public class AccountOperations {//GIT CONFLICT 1
+    public static Account setDefaultDescription(Account a) { //    //GIT CONFLICT       
         // If statements must use braces (GitConflic) idhdh
         if (a.Description != null) return a; //H
 	else a.Description = 'Default Description';
