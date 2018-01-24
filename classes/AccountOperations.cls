@@ -1,19 +1,11 @@
 public class AccountOperations {
-    public static Account setDefaultDescription(Account a) { //       
-        // If statements must use braces (GitConflic) idhdh
-        if (a.Description != null) return a; //H
-	else a.Description = 'Default Description';
-        
-        // Avoid SOQL inside loops
-        //for (Integer i = 0; i < 10; i++) {
-	    //List<Account> accounts = [SELECT Id FROM Account];
-	//}
-        //
-        // Avoid DML Statements inside loops
-       // for (Integer i = 0; i < 1; i++) {
-	   // update a;
-	//}
-       	
-        return a;
+    public static Account setDefaultDescription(Account a) {//GIT CONFLICT
+        a.Description = 'Default Description';
+        //123
+        if (a.Description == 'x') return a;
+        else a.Description = 'Default Description X'; //SCA Testinng
+        return a;//HELLO WORLD 646843684 GITLAB 2 3 4 5
+        //S23 
+        //CHANGING THE WORLD 89558515416464
     }
 }
